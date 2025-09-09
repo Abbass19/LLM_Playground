@@ -1,0 +1,12 @@
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu (done)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 (Done)
+pip install transformers datasets (Done)
+pip install notebook ipykernel (Not Done yet)
+
+python -m ipykernel install --user --name=hf_env --display-name "Python (hf_env)" (I don't know what this does)
+python -c "import torch; import transformers; print(torch.__version__, transformers.__version__)" (Verify Everything)
+
+
+
+
+ 
